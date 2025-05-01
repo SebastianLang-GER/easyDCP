@@ -18,10 +18,13 @@ For best platform compatibility the user control is implemented as a progressive
 You can run the PWA on any device with a modern web browser.
 After the server application is running connect the PWA with the correct server IP address and port number and start controlling the easyDCP Player+ software remotely.  
 Below you see some mockups of the PWA:  
-![easyDCP Player+ Remote Control PWA control dashboard mockup](/Impressions/mockup_control-dashboard.png "Control Dashboard") ![easyDCP Player+ Remote Control PWA connection settings mockup](/Impressions/mockup_connection-settings.png "Connection Settings")
+&nbsp;  
+![easyDCP Player+ Remote Control PWA control dashboard mockup](/Impressions/mockup_control-dashboard.png "Control Dashboard") &nbsp; &nbsp; &nbsp; ![easyDCP Player+ Remote Control PWA connection settings mockup](/Impressions/mockup_connection-settings.png "Connection Settings")
 
 ## Application Requirements
-The server application requires [.NET 7 or later](https://dotnet.microsoft.com/download) on a PC or Mac.  
+The server application requires [.NET 8 or later](https://dotnet.microsoft.com/download/dotnet/8.0/runtime).  
+Both `.NET Desktop Runtime` and `ASP.NET Core Runtime` are requried.
+Firewall settings may need to be updated to allow access to the server.  
 The PWA can run in any modern web browser on any device.  
 Both devices (computer with server application and device running the PWA) must be connected to the same local network in order to communicate.
 
@@ -40,8 +43,11 @@ For more information see the [application requirements](#application-requirement
     5. Connect to your server.
 
 ## Development
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)  
 This software was developed with [Visual Studio Community 2022](https://visualstudio.microsoft.com/).  
-The server application is written in *C#* and based on *.NET 7*, *ASP.NET* and *.NET MAUI*.  
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)  
+The server application is written in *C#* and based on *.NET 8* (*.NET Desktop* and *ASP.NET Core*).  
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
 The PWA is written in *HTML*, *CSS* and *JavaScript*. 
 
 ## Copyright
