@@ -22,8 +22,8 @@ Below you see some mockups of the PWA:
 ![easyDCP Player+ Remote Control PWA control dashboard mockup](/Impressions/mockup_control-dashboard.png "Control Dashboard") &nbsp; &nbsp; &nbsp; ![easyDCP Player+ Remote Control PWA connection settings mockup](/Impressions/mockup_connection-settings.png "Connection Settings")
 
 ## Application Requirements
-The server application requires [.NET 8 or later](https://dotnet.microsoft.com/download/dotnet/8.0/runtime).  
-Both `.NET Desktop Runtime` and `ASP.NET Core Runtime` are requried.
+The server application requires [.NET 8 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) or later.  
+Both `.NET Desktop Runtime` and `ASP.NET Core Runtime` are requried.  
 Firewall settings may need to be updated to allow access to the server.  
 The PWA can run in any modern web browser on any device.  
 Both devices (computer with server application and device running the PWA) must be connected to the same local network in order to communicate.
